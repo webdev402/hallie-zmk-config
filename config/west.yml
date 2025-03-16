@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: SplittedSpace
+      url-base: https://github.com/SplittedSpace
+  projects:
+    - name: zmk-firmware
+      remote: SplittedSpace
+      revision: main
+      import: app/west.yml
+  self:
+    path: config

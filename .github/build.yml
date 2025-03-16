@@ -1,0 +1,5 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: SplittedSpace/zmk-firmware/.github/workflows/build-user-config.yml@main

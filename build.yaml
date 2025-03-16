@@ -1,0 +1,4 @@
+include:
+  - board: hallie_left
+    snippet: studio-rpc-usb-uart
+  - board: hallie_right
